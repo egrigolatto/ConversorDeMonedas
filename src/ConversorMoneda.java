@@ -6,7 +6,9 @@ import java.net.http.HttpRequest; // HttpRequest para construir solicitudes HTTP
 import java.net.http.HttpResponse; // HttpResponse para manejar respuestas HTTP
 
 public class ConversorMoneda {
-    private static final String API_URL = "https://v6.exchangerate-api.com/v6/933263214e95c8abcf83b1da/latest/";
+    private static final String API_KEY = "clave API"; // Aquí tu clave de API
+    private static final String API_URL = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/latest/";
+
 
     // Método para convertir monedas
     public double convertirMoneda(double monto, String monedaOrigen, String monedaDestino) {

@@ -31,10 +31,26 @@ Para ejecutar el programa, simplemente sigue estos pasos:
 ## Requisitos previos:
 - JDK (Java Development Kit) instalado en tu sistema.
 - Conexión a Internet para acceder a la API de tasas de cambio.
+- Una cuenta en el sitio web de la API de tasas de cambio para obtener tu clave de API.
+
+#### Obtención de clave API
+Para obtener tu clave, es necesario realizar un registro inicial ingresando tu correo electrónico 
+(como se muestra en la imagen a continuación). 
+Después de esto, recibirás una clave en el correo electrónico proporcionado y estará lista para su uso.
+
+[Exchange Rate API](https://www.exchangerate-api.com/)
+
+![Obtención de clave API](img/4.webp)
+
+Una vez que tengas tu clave la debes ingresar en la clase ConversorMoneda:
+![Ingresar clave Api](img/5.png)
+
+De esta manera podras utilizar de forma correcta el programa
 
 
-## Recursos adicionales:
-- [API de tasas de cambio](https://www.exchangerate-api.com/)
+
+
+
 - [Visita la página de Alura](https://app.aluracursos.com/dashboard)
 - [ONE - Oracle Next Education](https://www.oracle.com/ar/education/oracle-next-education/)
 
